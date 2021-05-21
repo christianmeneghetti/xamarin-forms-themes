@@ -17,6 +17,10 @@ namespace XamarinThemes.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+            //var x = typeof(Xamarin.Forms.Themes.DarkThemeResources);
+            //var x = typeof(Xamarin.Forms.Themes.LightThemeResources);
+            var x = typeof(Xamarin.Forms.Themes.Android.UnderlineEffect);
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
